@@ -8,6 +8,7 @@
 
 body {
     background: rgba(239, 239, 239, 1);
+    color: rebeccapurple;
 }
 
 .layout-grid {
@@ -16,7 +17,169 @@ body {
     max-width: 1200px;
 }
 
-.header {
-    
+header .header-top {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
 
+header .menu {
+    width: 146px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header-bottom {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    margin-top: 70px;
+    gap: 13px;
+}
+
+header .header-bottom .user-info {
+    width: 481px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 17px;
+}
+
+header .header-bottom .sun {
+    margin-left: 52px;
+    margin-right: 14px;
+}
+
+header .header-bottom span {
+    font-family: "vw-head-bold";
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.05em;
+}
+
+header .header-bottom .squad-info {
+    width: 909px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 17px;
+    padding-left: 36px;
+}
+
+header .header-bottom button {
+    width: 328px;
+    height: 75px;
+    background: linear-gradient(90deg, #041861 -15.24%, #4BABE8 50%);
+    border-radius: 17px;
+    border: none;
+    font-family: "vw-head-bold";
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    line-height: 29px;
+    letter-spacing: -0.05em;
+}
+
+main .squads {
+    width: 100%;
+    height: 788px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .info-box {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 11px;
+}
+
+main .tec-box {
+    width: 634px;
+    height: 75px;
+    display: flex;
+}
+
+main .infotec {
+    width: 409px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 17px;
+    padding-left: 104px;
+    margin-right: 11px;
+}
+
+main .infotec span {
+    font-family: "vw-head-bold";
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 29px;
+    color: black;
+}
+
+main .info-number {
+    width: 214px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 17px;
+    padding-left: 61px;
+}
+
+main .info-number span {
+    font-family: "vw-head-bold";
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 29px;
+    color: black;
+}
+
+main table {
+    width: 100%;
+    height: 562px;
+    background-color: black;
+    border-radius: 30px;
+}
+
+main table .black-cont {
+    width: 1650px;
+    height: 406px;
+    display: flex;
+}
+
+main table .cont-table {
+    width: 100%;
+    height: 40px;
+    border: 1px solid blue;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+main table th {
+    font-family: "vw-head-regular";
+    font-size: 24px;
+    line-height: 29px;
+    width: 100%;
+    color: white;
+}
+
+main .table_inline {
+    width: 100%px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
 }
