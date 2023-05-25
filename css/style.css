@@ -1,0 +1,22 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(239, 239, 239, 1);
+}
+
+.layout-grid {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.header {
+    
+
+}
