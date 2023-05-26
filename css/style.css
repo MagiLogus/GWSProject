@@ -8,7 +8,6 @@
 
 body {
     background: rgba(239, 239, 239, 1);
-    color: rebeccapurple;
 }
 
 .layout-grid {
@@ -147,22 +146,20 @@ main .info-number span {
     color: black;
 }
 
-main .fundo-preto{
+main .fundo-preto {
     width: 100%;
     height: 562px;
     background-color: #000000;
     border-radius: 30px;
-
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
 }
 
 main table {
     width: 100%;
     height: 405px;
     background-color: black;
-
     margin: 0px 52px 0px 52px;
 }
 
@@ -174,36 +171,33 @@ main table th {
     color: white;
 }
 
-main table tbody tr .tarefa{
-    width: 433px;
+main table tbody tr .tarefa {
+    width: 400px;
     height: 75px;
     border: 1px solid white;
     border-radius: 17px;
-
     text-align: center;
     font-family: "vw-head-regular";
     font-size: 24px;
     color: white;
 }
 
-main table tbody tr .nome{
-    width: 185px;
+main table tbody tr .nome {
+    width: 175px;
     height: 75px;
     border: 1px solid white;
     border-radius: 17px;
-
     text-align: center;
     font-family: "vw-head-regular";
     font-size: 24px;
     color: white;
 }
 
-main table tbody tr .verification{
-    width: 240px;
+main table tbody tr .verification {
+    width: 215px;
     height: 75px;
     border: 1px solid white;
     border-radius: 17px;
-    
     text-align: center;
     font-family: "vw-head-regular";
     font-size: 24px;
@@ -211,12 +205,11 @@ main table tbody tr .verification{
     background-color: gray;
 }
 
-main table tbody tr .verification-pronto{
-    width: 240px;
+main table tbody tr .verification-pronto {
+    width: 215px;
     height: 75px;
     border: 1px solid white;
     border-radius: 17px;
-    
     text-align: center;
     font-family: "vw-head-regular";
     font-size: 24px;
@@ -224,12 +217,11 @@ main table tbody tr .verification-pronto{
     background-color: #3AB600;
 }
 
-main table tbody tr .verification-parado{
-    width: 240px;
+main table tbody tr .verification-parado {
+    width: 215px;
     height: 75px;
     border: 1px solid white;
     border-radius: 17px;
-    
     text-align: center;
     font-family: "vw-head-regular";
     font-size: 24px;
@@ -237,12 +229,11 @@ main table tbody tr .verification-parado{
     background-color: #F1AE00;
 }
 
-main table tbody tr .verification-finalizado{
-    width: 240px;
+main table tbody tr .verification-finalizado {
+    width: 215px;
     height: 75px;
     border: 1px solid white;
     border-radius: 17px;
-    
     text-align: center;
     font-family: "vw-head-regular";
     font-size: 24px;
@@ -250,55 +241,72 @@ main table tbody tr .verification-finalizado{
     background-color: #4BABE8;
 }
 
-main table tbody tr .andamento{
+main table tbody tr .andamento {
     width: 433px;
     height: 91px;
     border: 1px solid white;
     border-radius: 17px;
-
     font-family: "vw-head-regular";
     font-size: 24px;
     color: white;
-
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding-left: 10px;
 }
 
-main table tbody tr .bar{
+main table tbody tr .bar1 {
     width: 318px;
-    height: 20px;
-    background-color: #4babe8;
+    height: 41px;
+    background-color: rgba(95, 95, 95, 1);
+    border-radius: 30px;
+    display: flex;
+}
+
+main table tbody tr .bar2 {
+    width: 386px;
+    height: 41px;
+    background-color: rgba(58, 182, 0, 1);
     border-radius: 30px;
 }
 
-main table tbody tr .hora{
+main table tbody tr .bar3 {
+    width: 267px;
+    height: 41px;
+    background-color: rgba(241, 174, 0, 1);
+    border-radius: 30px;
+}
+
+main table tbody tr .bar4 {
+    width: 346px;
+    height: 41px;
+    background-color: rgba(75, 171, 232, 1);
+    border-radius: 30px;
+}
+
+main table tbody tr .hora {
     width: 185px;
     height: 75px;
     border: 1px solid white;
     border-radius: 17px;
-
     text-align: center;
     font-family: "vw-head-regular";
     font-size: 24px;
     color: white;
 }
 
-main table tbody tr .mais{
+main table tbody tr .mais {
     width: 185px;
     height: 75px;
     border: 1px solid white;
     border-radius: 17px;
-
     text-align: center;
     font-family: "vw-head-regular";
     font-size: 24px;
     color: white;
-
     background: #272727;
 }
 
-main .button-box{
+main .button-box {
     width: 100%;
     margin-bottom: 40px;
     display: flex;
@@ -306,21 +314,36 @@ main .button-box{
     border-bottom: 2px solid rgb(0, 0, 0);
 }
 
-main .button-tabela{
+main .button-tabela {
     width: 409px;
     height: 75px;
     background: linear-gradient(90deg, #041861 -15.24%, #4BABE8 50%);
     border: none;
     border-radius: 17px;
-
     font-family: "vw-head-bold";
     font-size: 24px;
     text-transform: uppercase;
     color: white;
     line-height: 29px;
     letter-spacing: -0.05em;
-
     margin-top: 20px;
     margin-bottom: 20px;
+}
 
+footer .footer {
+    width: 100%;
+    height: 57px;
+    margin-top: 101px;
+    margin-bottom: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 1px solid black;
+}
+
+footer .footer p {
+    font-family: "vw-head-regular";
+    font-size: 20px;
+    line-height: 24px;
 }
