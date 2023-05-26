@@ -147,39 +147,180 @@ main .info-number span {
     color: black;
 }
 
-main table {
+main .fundo-preto{
     width: 100%;
     height: 562px;
-    background-color: black;
+    background-color: #000000;
     border-radius: 30px;
-}
 
-main table .black-cont {
-    width: 1650px;
-    height: 406px;
     display: flex;
+    justify-content: center;
+    align-items: center;  
 }
 
-main table .cont-table {
+main table {
     width: 100%;
-    height: 40px;
-    border: 1px solid blue;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
+    height: 405px;
+    background-color: black;
+
+    margin: 0px 52px 0px 52px;
 }
 
 main table th {
+    text-align: center;
     font-family: "vw-head-regular";
     font-size: 24px;
     line-height: 29px;
-    width: 100%;
     color: white;
 }
 
-main .table_inline {
-    width: 100%px;
+main table tbody tr .tarefa{
+    width: 433px;
     height: 75px;
+    border: 1px solid white;
+    border-radius: 17px;
+
+    text-align: center;
+    font-family: "vw-head-regular";
+    font-size: 24px;
+    color: white;
+}
+
+main table tbody tr .nome{
+    width: 185px;
+    height: 75px;
+    border: 1px solid white;
+    border-radius: 17px;
+
+    text-align: center;
+    font-family: "vw-head-regular";
+    font-size: 24px;
+    color: white;
+}
+
+main table tbody tr .verification{
+    width: 240px;
+    height: 75px;
+    border: 1px solid white;
+    border-radius: 17px;
+    
+    text-align: center;
+    font-family: "vw-head-regular";
+    font-size: 24px;
+    color: white;
+    background-color: gray;
+}
+
+main table tbody tr .verification-pronto{
+    width: 240px;
+    height: 75px;
+    border: 1px solid white;
+    border-radius: 17px;
+    
+    text-align: center;
+    font-family: "vw-head-regular";
+    font-size: 24px;
+    color: white;
+    background-color: #3AB600;
+}
+
+main table tbody tr .verification-parado{
+    width: 240px;
+    height: 75px;
+    border: 1px solid white;
+    border-radius: 17px;
+    
+    text-align: center;
+    font-family: "vw-head-regular";
+    font-size: 24px;
+    color: white;
+    background-color: #F1AE00;
+}
+
+main table tbody tr .verification-finalizado{
+    width: 240px;
+    height: 75px;
+    border: 1px solid white;
+    border-radius: 17px;
+    
+    text-align: center;
+    font-family: "vw-head-regular";
+    font-size: 24px;
+    color: white;
+    background-color: #4BABE8;
+}
+
+main table tbody tr .andamento{
+    width: 433px;
+    height: 91px;
+    border: 1px solid white;
+    border-radius: 17px;
+
+    font-family: "vw-head-regular";
+    font-size: 24px;
+    color: white;
+
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+main table tbody tr .bar{
+    width: 318px;
+    height: 20px;
+    background-color: #4babe8;
+    border-radius: 30px;
+}
+
+main table tbody tr .hora{
+    width: 185px;
+    height: 75px;
+    border: 1px solid white;
+    border-radius: 17px;
+
+    text-align: center;
+    font-family: "vw-head-regular";
+    font-size: 24px;
+    color: white;
+}
+
+main table tbody tr .mais{
+    width: 185px;
+    height: 75px;
+    border: 1px solid white;
+    border-radius: 17px;
+
+    text-align: center;
+    font-family: "vw-head-regular";
+    font-size: 24px;
+    color: white;
+
+    background: #272727;
+}
+
+main .button-box{
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: end;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+main .button-tabela{
+    width: 409px;
+    height: 75px;
+    background: linear-gradient(90deg, #041861 -15.24%, #4BABE8 50%);
+    border: none;
+    border-radius: 17px;
+
+    font-family: "vw-head-bold";
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    line-height: 29px;
+    letter-spacing: -0.05em;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
